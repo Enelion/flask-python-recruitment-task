@@ -3,7 +3,7 @@
 Przygotować backend, który gromadzi i serwuje punkty ładowania (funkcjonalność analogiczna do Open Charge Map API).
 Przykładowo, zapytanie GET na url do pobrania wszystkich punktów ładowania powinno zwrócić:
 ```json
-[<ChargeNetwork1>, ...]
+[ChargeNetwork1, ...]
 ```
 , gdzie *ChargeNetwork* posiada atrybuty:
 - lokalizacja (lat, lng)
